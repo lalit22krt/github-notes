@@ -3,3 +3,5 @@ git remote add <name> <address>: Add a remote repository and name it as <name>
 git remote -v: A verbose output
 git push <nameOfRemoteRepo> <branchToBePushed>: Push contents of branch
     <branchToBePushed> to the remote repository <nameOfRemoteRepo>
+
+Forking: Clone repository from one Github account to another Github account.
