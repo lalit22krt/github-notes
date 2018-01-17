@@ -1,3 +1,22 @@
+git log: Show all change log.
+git log  --stat: Shows log as well as which files have changed.
+git diff <fiile1|commit1> <file2|commit2>: See differences bw two commits.
+git config --global color.ui auto: GREEN RED colour.
+git checkout <commitId>: To see an older commit. Will give "detached head" warning.
+git checkout -b <branchName>: When seeing an older commit, you can make changes and create a new branch with those changes incorporated.
+git init: Create .git folder i.e. create an repo into a git repo.
+git status: Shows files which have changed since last commit.
+git add <file>: Add file to the staging area.
+git commit -m "Message!": Commit with a message.
+git diff: Diff. bw files in working directory and staging area.
+git diff --staged: Diff. bw files in staging area and repository.
+git reset --hard: Discards any changes in working directory and the staging area.
+git branch <branchName>: Create a new branch.
+git checkout <branchName>: Switch to the branch <branchName>
+git branch: Shows all branches.
+git log --graph --oneline <branch1> <branch2>
+<MergeIntoBranch>$ git merge <MergeIntoBranch> <BranchToBeMerged>
+git show <commitId>: Show diff between this commit and its PARENT.
 git remote: Show all remote repositories.
 git remote add <name> <address>: Add a remote repository and name it as <name>
 git remote -v: A verbose output
