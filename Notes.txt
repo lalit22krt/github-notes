@@ -27,5 +27,7 @@ git pull <nameOfRemoteRepo> <localBranch>: Pull the changes made in the remote
 
 git fetch: Update origin/master locally without touching local/master branch.
 git pull = git fetch origin + git merge origin/master master.
- 
+
 Forking: Clone repository from one Github account to another Github account.
+
+=============================================================================
